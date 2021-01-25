@@ -1,6 +1,6 @@
 <?php 
    try {
-	  $db = new PDO("mysql:host=185.50.71.32;dbname=codingtr_sozluk;charset=utf8","codingtr_admin","159705Fu"); 
+	  $db = new PDO("mysql:host=databaseip;dbname=codingtr_sozluk;charset=utf8","codingtr_admin","password"); 
    }catch (PDOException $mesaj) {
 	  echo $mesaj->getmessage(); 
    }
